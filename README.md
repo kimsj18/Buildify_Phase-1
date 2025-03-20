@@ -60,7 +60,7 @@ BuildiFy
 ## 계정 정보
 ### ✅ 관리자 (ADMIN)
 - ID : `admin01`
-- 비밀번호 : `admin123`
+- 비밀번호 : `admin123!`
 
 ### ✅ 사용자 (USER)
 - ID : `SalesTeam1`
@@ -74,6 +74,9 @@ MySQL 데이터베이스를 아래 방법 중 하나로 설정하세요.
 ### 1️⃣ 터미널에서 실행
 ```sh
 mysql -u [사용자명] -p [비밀번호] < src/MySql/wmsdb.sql
+
+src/resources/config.properties
+파일에 원격 DB or 로컬 DB 이용시 세팅 필요!
 
 
 
